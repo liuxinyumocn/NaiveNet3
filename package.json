@@ -1,0 +1,30 @@
+{
+  "name": "naivenet3",
+  "version": "1.0.0",
+  "description": "NaiveNet第三代应用通信组件，全面采用Node.js脚本开发。快速部署，灵活应用，可应用于微信小程序/小游戏、字节跳动小程序/小游戏等实时交互应用开发。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuxinyumocn/NaiveNet3.git"
+  },
+  "author": "Liuxinyumo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuxinyumocn/NaiveNet3/issues"
+  },
+  "homepage": "https://github.com/liuxinyumocn/NaiveNet3#readme",
+  "devDependencies": {
+    "@types/brotli": "^1.3.4",
+    "@types/inquirer": "^9.0.7",
+    "node-loader": "^2.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  }
+}
